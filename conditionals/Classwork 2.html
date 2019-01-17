@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 10</title>
+</head>
+<body>
+
+<script>
+
+    var cards=prompt("May I have 3 cards?");
+    var card1 = prompt ("Enter 1st");
+    If (sum === 21)
+    {
+
+        console.log("BLACKJACK!")
+    }
+    var card2 = prompt ("Enter 2nd");
+    else if (sum > 21)
+    {
+        console.log("BUST!")
+    }
+    var card3 = prompt ("Enter 3rd");
+    else if (sum<21) {
+        console.log("The total is [TOTAL]")
+    }
+
+    var card1 = parseInt (prompt("Card1"));
+    var card2 = parseInt (prompt("Card2"));
+    var card3 = parseInt (prompt("Card3"));
+
+    var sum = card1 +card2 + card3;
+
+    if(sum == 21) {
+        console.log("Blackjacks!!!!")
+    }
+    else if(sum>21){
+        console.log("BUST");
+    }
+    else if(sum<21){
+        console.log("The total is: " + sum)
+    }
+    else{
+        console.log("Error. Somehow you broke this.")
+    }
+</script>
+</body>
+</html>

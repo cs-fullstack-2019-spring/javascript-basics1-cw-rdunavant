@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 12</title>
+</head>
+<body>
+
+
+<script>
+    var age = prompt("What is your age?");
+    var age2 = prompt("Did you enter a value between 0 and 125?");
+    var valid = (0-125);
+    var invalid = (>125);
+    if (valid) {
+            console.log("REAL AGE");
+    }
+    else if (invalid) {
+        console.log("NOT A REAL AGE!!!");
+    }
+
+    var userAge= parseInt(prompt("how old are you?"));
+
+    if (userAge < 0 )
+    {
+        console.log("Not Valid age.");
+    }
+    else if (userAge <= 125 )
+    {
+        console.log("Real age.");
+    }
+    else
+    {
+        console.log("Not valid age.")
+    }
+
+</script>
+</body>
+</html>
