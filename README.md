@@ -1,3 +1,5 @@
+## KEY - Correct!
+
 # JavaScript-Basics1-CW
 
 Problem 1
